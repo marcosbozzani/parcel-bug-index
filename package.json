@@ -9,5 +9,8 @@
   },
   "scripts": {
     "build": "rimraf dist && parcel build src/index.html src/folder/index.html"
+  },
+  "resolutions": {
+    "lodash": "^4.17.13"
   }
 }
